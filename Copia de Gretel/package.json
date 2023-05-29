@@ -1,5 +1,10 @@
 {
+  "homepage": "https://cesardelgado13.github.io/app1/",
   "dependencies": {
     "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   }
 }
